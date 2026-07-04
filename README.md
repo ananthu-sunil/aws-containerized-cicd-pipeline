@@ -1,5 +1,10 @@
 # 🚀 AWS Containerized CI/CD Pipeline
 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-blue?logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
+![AWS ECR](https://img.shields.io/badge/AWS-ECR-FF9900?logo=amazon-aws&logoColor=white)
+![Elastic Beanstalk](https://img.shields.io/badge/AWS-Elastic_Beanstalk-FF9900?logo=amazon-aws&logoColor=white)
+
 An end-to-end DevOps project demonstrating how to containerize a React application using Docker and automate its testing and deployment to AWS Elastic Beanstalk with GitHub Actions.
 
 This project was built as part of my Cloud & DevOps learning journey while transitioning from Embedded Software Engineering to Cloud Engineering.
@@ -20,8 +25,6 @@ The objective is to demonstrate a production-style deployment pipeline using mod
 ---
 
 ## 🏗️ Architecture
-
-## Architecture
 
 ![GitHub Actions](https://raw.githubusercontent.com/asunildev/devops-lab/main/projects/01-aws-containerized-cicd-pipeline/images/project-architecture.png)
 
@@ -88,12 +91,12 @@ Application Running
 
 ## ✨ Features
 
-- ✅ Dockerized React Application
-- ✅ Automated Test Execution
-- ✅ Continuous Integration using GitHub Actions
-- ✅ Continuous Deployment to AWS Elastic Beanstalk
-- ✅ Production-ready Deployment Workflow
-- ✅ Infrastructure hosted on AWS
+- Dockerized React application for consistent environments
+- Automated test execution in CI pipeline
+- Continuous Integration using GitHub Actions
+- Continuous Deployment to AWS Elastic Beanstalk
+- Production-ready deployment workflow with Docker multi-stage builds
+- Infrastructure hosted on AWS cloud services
 
 ---
 
